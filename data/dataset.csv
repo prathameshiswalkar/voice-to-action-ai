@@ -1,0 +1,51 @@
+text,intent
+pickup karna hai Andheri se Powai,BOOK_PICKUP
+kal morning pickup possible hai kya,BOOK_PICKUP
+aaj evening pickup chahiye,BOOK_PICKUP
+sunday pickup possible hai kya,BOOK_PICKUP
+same day pickup possible hai kya,BOOK_PICKUP
+price batao mumbai to pune 10kg,CHECK_RATE
+8kg parcel ka rate batao,CHECK_RATE
+bhai rate batao mumbai to gurgaon 15kg,CHECK_RATE
+delhi to gurgaon rate kya hoga,CHECK_RATE
+weight confirm nahi hai estimate 12kg,CHECK_RATE
+pune to nashik service available hai kya,CHECK_SERVICEABILITY
+is route pe service milegi kya,CHECK_SERVICEABILITY
+mumbai to indore service available,CHECK_SERVICEABILITY
+same day delivery service hai kya,CHECK_SERVICEABILITY
+outstation delivery possible hai kya,CHECK_SERVICEABILITY
+tracking link bhejo,TRACK_ORDER
+live tracking link send karo,TRACK_ORDER
+tracking number kho gaya,TRACK_ORDER
+parcel status update nahi ho raha,TRACK_ORDER
+tracking id ke bina status kaise dekhu,TRACK_ORDER
+order cancel kar do,CANCEL_ORDER
+pickup mat bhejo order cancel karna hai,CANCEL_ORDER
+order cancel ho gaya refund kab milega,CANCEL_ORDER
+mera order cancel kar do abhi,CANCEL_ORDER
+cancel request raise kar do,CANCEL_ORDER
+pickup friday ke liye reschedule karo,RESCHEDULE_PICKUP
+order reschedule karna hai,RESCHEDULE_PICKUP
+pickup kal ke liye shift karo,RESCHEDULE_PICKUP
+pickup time change karna hai,RESCHEDULE_PICKUP
+reschedule pickup for tomorrow,RESCHEDULE_PICKUP
+delivery late hai complaint register karo,RAISE_COMPLAINT
+parcel fragile hai handle carefully,RAISE_COMPLAINT
+delivery agent ne call nahi kiya,RAISE_COMPLAINT
+driver late aa raha issue raise karo,RAISE_COMPLAINT
+complaint number generate hua kya,RAISE_COMPLAINT
+driver ka number share karo,CONNECT_TO_AGENT
+customer care se baat karni hai,CONNECT_TO_AGENT
+human agent se connect karo,CONNECT_TO_AGENT
+driver ka contact number chahiye,CONNECT_TO_AGENT
+agent se baat karna hai abhi,CONNECT_TO_AGENT
+cod available hai kya,PAYMENT_QUERY
+payment prepaid hai ya cod,PAYMENT_QUERY
+cod aur prepaid dono option chahiye,PAYMENT_QUERY
+payment already prepaid hai,PAYMENT_QUERY
+cash on delivery option hai kya,PAYMENT_QUERY
+invoice upload karna hai,DOCUMENT_UPLOAD_QUERY
+gst invoice chahiye,DOCUMENT_UPLOAD_QUERY
+invoice whatsapp pe bhejo,DOCUMENT_UPLOAD_QUERY
+invoice email pe bhejo,DOCUMENT_UPLOAD_QUERY
+invoice upload kar diya hai,DOCUMENT_UPLOAD_QUERY
