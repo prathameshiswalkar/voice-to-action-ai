@@ -75,4 +75,5 @@ def extract_entities(text):
     entities['pickup_time'] = extract_pickup_time(text)
     return entities
 
-print(extract_entities("pickup kal morning Andheri se Powai"))
+# example input
+# print(extract_entities("pickup kal morning Andheri se Powai"))
